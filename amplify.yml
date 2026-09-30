@@ -1,0 +1,14 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - mkdir -p public
+        - unzip -oq revived-part-1.zip -d public
+        - unzip -oq revived-part-2.zip -d public
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
