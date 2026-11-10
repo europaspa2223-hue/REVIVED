@@ -6,6 +6,7 @@ frontend:
         - mkdir -p public
         - unzip -oq revived-part-1.zip -d public
         - unzip -oq revived-part-2.zip -d public
+        - unzip -oq revived-part-3.zip -d public
   artifacts:
     baseDirectory: public
     files:
